@@ -1,0 +1,117 @@
+base_url = "https://keanuc.net"
+
+title = "Keanu Czirjak"
+description = ""
+
+default_language = "en"
+
+theme = "terminus"
+
+compile_sass = true
+generate_feeds = true
+
+feed_filenames = ["atom.xml", "rss.xml"]
+
+author = "Keanu Czirjak"
+
+# The taxonomies to be rendered for the site and their configuration of the default languages# The default author for pages
+# Example:
+#     taxonomies = [
+#       {name = "tags", feed = true}, # each tag will have its own feed
+#       {name = "tags"}, # you can have taxonomies with the same name in multiple languages
+#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
+#       {name = "authors"}, # Basic definition: no feed or pagination
+#     ]
+#
+taxonomies = [
+    { name = "tags" },
+    { name = "categories" },
+]
+
+# When set to "true", a search index is built from the pages and section
+# content for `default_language`.
+build_search_index = true
+
+# When set to "false", Sitemap.xml is not generated
+generate_sitemap = true
+
+# When set to "false", robots.txt is not generated
+generate_robots_txt = true
+
+# Configuration of the Markdown rendering
+[markdown]
+# When set to "true", all code blocks are highlighted.
+highlight_code = true
+
+# The theme to use for code highlighting.
+# See below for list of allowed values.
+highlight_theme = "monokai"
+
+# When set to "true", emoji aliases translated to their corresponding
+# Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
+render_emoji = true
+
+# Whether smart punctuation is enabled (changing quotes, dashes, dots in their typographic form)
+# For example, `...` into `…`, `"quote"` into `“curly”` etc
+smart_punctuation = true
+
+# Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
+bottom_footnotes = true
+
+# This determines whether to insert a link for each header like the ones you can see on this site if you hover over
+# a header.
+# The default template can be overridden by creating an `anchor-link.html` file in the `templates` directory.
+# This value can be "left", "right", "heading" or "none".
+# "heading" means the full heading becomes the text of the anchor.
+# See "Internal links & deep linking" in the documentation for more information.
+insert_anchor_links = "none"
+
+[extra]
+header_title = "keanu"
+
+# Terminus theme defaults (merged)
+close_responsive_menu_on_resize = true
+copy_button = true
+favicon_emoji = "🚆"
+fediverse_creator = ""
+layout = "center"
+show_default_author = false
+
+# Site navigation (example from the theme). Edit or remove as desired.
+main_menu = [
+	{ name = "home", url = "@/_index.md", trailing_slash = true },
+	{ name = "blog", url = "blog", trailing_slash = true },
+	{ name = "projects", url = "projects", trailing_slash = true },
+  { name = "rss", url = "rss.xml" },
+	{ name = "github", url = "https://github.com/keanucz/keanuc.net", new_tab = true },
+]
+
+socials = [
+	{ name = "email", url = "mailto:hello@keanuc.net" },
+	{ name = "github", url = "https://github.com/keanucz" },
+	{ name = "linkedin", url = "https://www.linkedin.com/in/keanuczirjak" },
+	{ name = "instagram", url = "https://instagram.com/keanutda" },
+]
+
+# Convenience fields for the vcard partial
+bio = "Software Engineer degree apprentice @ [Arm](https://arm.com).<br/>2nd year @ [BPP University](https://www.bpp.com). Technology enthusiast. Hackathonmaxxer (30 hackathons and counting)"
+profile_image = "images/profile.png"
+location = "Sheffield, UK"
+
+[extra.content_security_policy]
+enable = true
+allowed_domains = [
+    { directive = "connect-src", domains = ["'self'", "cloudflareinsights.com"] },
+    { directive = "frame-src", domains = ["'self'", "utteranc.es"] },
+    { directive = "img-src", domains = ["'self'", "data:"] },
+    { directive = "script-src", domains = ["'self'", "utteranc.es", "static.cloudflareinsights.com"] },
+    { directive = "style-src-elem", domains = ["'self'", "'unsafe-inline'", "utteranc.es"] },
+]
+
+[extra.responsive_images]
+widths = [640, 784, 1280, 1920, 2560]
+fallback_width = 1280
+
+[extra.theme_switcher]
+enable = true
+default = "tokyo-night"    # change to one of: terminus, tokyo-night, solarized-dark, nord, one-dark, gruvbox-dark, oled-abyss, solar-flare

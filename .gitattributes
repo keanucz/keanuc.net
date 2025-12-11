@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# These files should have specific line endings
+*.sh	text eol=lf
+*.bat	text eol=crlf
+
+# Binary files (not using LFS - compressed 7z archives are small enough)
+# (binary is a macro for -text -diff)
+*.svg binary
+*.png	binary
