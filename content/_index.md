@@ -21,3 +21,4 @@ other than hackathons and tech though, I enjoy learning about world history, psy
 
 many moons ago I made another portfolio/blog website using Hugo but that fell by the wayside.
 I decided to use zola (a rust tool) to make this one. and of course the wonderful [terminus theme](https://eyalkalderon.com/terminus/) (thanks eyal).
+also thanks to my friend ronno for giving me inspiration by making a [cool website at https://www.ron0.dev/](https://www.ron0.dev/).
