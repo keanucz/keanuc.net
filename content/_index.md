@@ -1,7 +1,7 @@
 +++
 title = "Front Page"
-description = "hi folks! I'm Keanu (yes, like Keanu Reeves). I currently contribute to open-source AI projects for Arm. Outside of my day job, I'm obsessed with spending my weekends going to hackathons. I'm generally passionate about all things technology (specifically coding, cybersecurity, robotics, hardware.. anything goes).
-other than hackathons and tech though, I enjoy learning about world history, psychology and astronomy, I'm a massive classic movie buff (think The Untouchables and other 1980s classics) and Linkin Park fan (I've seen them twice!)"
+description = """hi folks! I'm Keanu (yes, like Keanu Reeves). I currently contribute to open-source AI projects for Arm. Outside of my day job, I'm obsessed with spending my weekends going to hackathons. I'm generally passionate about all things technology (specifically coding, cybersecurity, robotics, hardware.. anything goes).
+other than hackathons and tech though, I enjoy learning about world history, psychology and astronomy, I'm a massive classic movie buff (think The Untouchables and other 1980s classics) and Linkin Park fan (I've seen them twice!)"""
 
 [extra.social_media_image]
 path = "images/profile.jpg"
