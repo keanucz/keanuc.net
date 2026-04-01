@@ -40,12 +40,6 @@ generate_robots_txt = true
 
 # Configuration of the Markdown rendering
 [markdown]
-# When set to "true", all code blocks are highlighted.
-highlight_code = true
-
-# The theme to use for code highlighting.
-# See below for list of allowed values.
-highlight_theme = "monokai"
 
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
@@ -65,6 +59,13 @@ bottom_footnotes = true
 # "heading" means the full heading becomes the text of the anchor.
 # See "Internal links & deep linking" in the documentation for more information.
 insert_anchor_links = "none"
+
+# Syntax highlighting configuration
+[markdown.highlighting]
+# Whether to use inline hex colours ("inline") or CSS classes ("class").
+style = "inline"
+# The theme to use for code highlighting.
+theme = "monokai"
 
 [extra]
 header_title = "keanu"
