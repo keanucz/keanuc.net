@@ -1,7 +1,7 @@
 <section class="vcard">
   <div class="vcard-left">
     {% set photo = config.extra.profile_image |
-    default(value="images/profile.png") -%}
+    default(value="images/profile.jpg") -%}
     <img
       class="vcard-photo"
       src="{{ get_url(path=photo) }}"
