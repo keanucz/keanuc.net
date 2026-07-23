@@ -95,9 +95,9 @@ socials = [
 ]
 
 # Convenience fields for the vcard partial
-bio = "Software Engineer degree apprentice @ [Arm](https://arm.com).<br/>2nd year @ [BPP University](https://www.bpp.com). Technology enthusiast. Hackathonmaxxer (30 hackathons and counting)"
+bio = "founding engineer @ [siliXon](https://silixon.io).<br/>2nd year @ [BPP University](https://www.bpp.com). Technology enthusiast. Hackathonmaxxer (34 hackathons, 12 Ws and counting)"
 profile_image = "images/profile.jpg"
-location = "Sheffield, UK"
+location = "London, UK"
 
 [extra.content_security_policy]
 enable = true

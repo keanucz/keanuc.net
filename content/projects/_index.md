@@ -9,7 +9,7 @@ I've worked on a variety of projects over the years - in my own time, at hackath
 ---
 
 ## Major personal projects
-
+	
 <div class="project-header"><img src="/images/projects/adobeconnectdl.svg" alt="AdobeConnectDL logo" /><h3>AdobeConnectDL</h3></div>
 
 - I made a utility to download one or more lecture recordings with bundled transcripts, attachments & embedded subtitles from Adobe Connect (so that I could easily grab my uni lecture recordings and watch them offline)
