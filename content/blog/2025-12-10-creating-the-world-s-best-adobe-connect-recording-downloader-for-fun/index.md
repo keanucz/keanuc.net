@@ -91,7 +91,7 @@ After my first implementation which used FFMPEG (and subsequently me bundling it
 
 I did consider just using the system's bundled version of ffmpeg, but honestly, I wanted the app to work in a self-contained way without any dependencies; and frankly, I'm happy with how small the binary is now.
 
-{{ alert(type="info", text="Switching from bundling ffmpeg to MP4Box reduced the binary size from **134MB** down to just **16MB** — an 88% reduction!") }}
+{{ alert(type="info", text="Switching from bundling ffmpeg to MP4Box reduced the binary size from **134MB** down to just **16MB** - an 88% reduction!") }}
 
 {{ carousel(images="before.png,after.png", captions="Before,After") }}
 

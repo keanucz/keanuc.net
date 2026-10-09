@@ -120,7 +120,7 @@ captions_value = captions %} {% else %} {% set captions_value = "" %} {% endif
       const dotsWrap = carousel.querySelector(".sc-dots");
       const captionOuter = carousel.querySelector(".sc-caption-outer");
 
-      // Store captions separately — always parse from data attribute
+      // Store captions separately - always parse from data attribute
       let captionsArr = [];
       const captionsData = track.dataset.captions || "";
       if (captionsData) {
