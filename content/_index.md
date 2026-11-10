@@ -20,7 +20,7 @@ default = "one-dark"    # change to one of: terminus, tokyo-night, solarized-dar
 
 hi folks! I'm Keanu (yes, like Keanu Reeves). disclaimer: any of the content on this website reflects solely my opinion and nobody else's
 
-I recently moved to London to join [siliXon](https://silixon.io) as a founding engineer. siliXon is building a text-to-electronics platform, democratising PCB design and making electronics more accessible to everyone. In my spare time something I love to do is going to hackathons - I've travelled to 7 countries other than the UK (USA, Spain, Finland, Switzerland, Ireland, Canada, Poland) just for hackathons alone.
+I recently moved to London to join [siliXon](https://silixon.io) as a founding engineer. siliXon is building a text-to-electronics platform, democratising PCB design and making electronics more accessible to everyone. In my spare time something I love to do is going to hackathons - I've travelled to 7 countries other than the UK (USA 🇺🇸, Spain 🇪🇸, Finland 🇫🇮, Switzerland 🇨🇭, Ireland 🇮🇪, Canada 🇨🇦, Poland 🇵🇱) just for hackathons alone.
 
 I'm generally passionate about all things technology (specifically coding, cybersecurity, robotics, hardware.. anything goes).
 other than hackathons and tech though, I enjoy learning about world history, psychology and astronomy, I'm a massive classic movie buff (think The Untouchables and other 1980s classics) and Linkin Park fan (I've seen them twice!)
